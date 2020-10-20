@@ -1,3 +1,10 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+}
+
 html,
 body {
   padding: 0;
@@ -25,12 +32,29 @@ a {
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 0 0 2rem 0;
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+.navigation {
+  margin: 2rem 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+}
+
+.navigation ul li:last-of-type {
+  margin: 0;
+}
+
+.header {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
 }
 
 .footer {
@@ -69,7 +93,14 @@ a {
   font-size: 4rem;
 }
 
+.subtitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+}
+
 .title,
+.subtitle,
 .description {
   text-align: center;
 }

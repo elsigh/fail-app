@@ -1,9 +1,9 @@
-export default function Home() {
+export default function About() {
   return (
     <div>
       <header className="header">
         <h1 className="title">Fail App</h1>
-        <h2 className="subtitle">Home Page</h2>
+        <h2 className="subtitle">About Page</h2>
       </header>
 
       <p className="description">
