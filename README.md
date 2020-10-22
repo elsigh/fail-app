@@ -1,3 +1,6 @@
+## Demo
+This repo is deployed on Vercel at https://fail-app.songbookstudio.vercel.app/ and it is connected to a project on Sentry where we are validating exception reporting.
+
 ## Getting Started
 
 1. Clone https://github.com/kamilogorek/next-sentry-source-maps and link it to your local env (`yarn link`)
