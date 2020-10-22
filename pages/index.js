@@ -35,8 +35,8 @@ const Index = () => (
       <li>
         <p>
           getStaticProps calls a Promise that rejects, but does not handle
-          the rejection or await its result (returning synchronously). `revalidate: 1` is set. 
-          Sentry should record Error('Server Test 3').
+          the rejection or await its result (returning synchronously). 
+          `revalidate: 1` is set. Sentry should record Error('Server Test 4').
         </p>
         <a href="/server/test4" target="_blank">
           Open in a new tab
