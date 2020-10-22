@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@next/plugin-sentry": "^9.5.5",
-    "next": "/Users/kamilogorek/Projects/sentry/next.js/packages/next",
+    "next": "canary",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   }
