@@ -12,5 +12,10 @@
     "next": "canary",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
   }
 }

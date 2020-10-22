@@ -1,6 +1,6 @@
-import "../styles/globals.css";
-import Head from "next/head";
-import Link from "next/link";
+import '../styles/globals.css'
+import Head from 'next/head'
+import Link from 'next/link'
 
 function MyApp({ Component, pageProps, err }) {
   return (
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps, err }) {
         <p>
           <strong>Important:</strong> exceptions in development mode take a
           different path than in production. These tests should be run on a
-          production build (i.e. 'next build').{" "}
+          production build (i.e. 'next build').{' '}
           <a href="https://nextjs.org/docs/advanced-features/custom-error-page#customizing-the-error-page">
             Read more
           </a>
@@ -38,12 +38,12 @@ function MyApp({ Component, pageProps, err }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
+          Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
     </div>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp

@@ -1,7 +1,7 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 const Index = () => (
-  <div style={{ maxWidth: 700, margin: "0 auto" }}>
+  <div style={{ maxWidth: 700, margin: '0 auto' }}>
     <h3>Server exceptions</h3>
     <ul className="exceptions">
       <li>
@@ -34,9 +34,9 @@ const Index = () => (
       </li>
       <li>
         <p>
-          getStaticProps calls a Promise that rejects, but does not handle
-          the rejection or await its result (returning synchronously). 
-          `revalidate: 1` is set. Sentry should record Error('Server Test 4').
+          getStaticProps calls a Promise that rejects, but does not handle the
+          rejection or await its result (returning synchronously). `revalidate:
+          1` is set. Sentry should record Error('Server Test 4').
         </p>
         <a href="/server/test4" target="_blank">
           Open in a new tab
@@ -53,8 +53,8 @@ const Index = () => (
         </p>
         <Link href="/client/test1">
           <a>Perform client side navigation</a>
-        </Link>{" "}
-        or{" "}
+        </Link>{' '}
+        or{' '}
         <a href="/client/test1" target="_blank">
           Open in a new tab
         </a>
@@ -66,8 +66,8 @@ const Index = () => (
         </p>
         <Link href="/client/test2">
           <a>Perform client side navigation</a>
-        </Link>{" "}
-        or{" "}
+        </Link>{' '}
+        or{' '}
         <a href="/client/test2" target="_blank">
           Open in a new tab
         </a>
@@ -81,8 +81,8 @@ const Index = () => (
         </p>
         <Link href="/client/test3">
           <a>Perform client side navigation</a>
-        </Link>{" "}
-        or{" "}
+        </Link>{' '}
+        or{' '}
         <a href="/client/test3" target="_blank">
           Open in a new tab
         </a>
@@ -95,8 +95,8 @@ const Index = () => (
         </p>
         <Link href="/client/test4">
           <a>Perform client side navigation</a>
-        </Link>{" "}
-        or{" "}
+        </Link>{' '}
+        or{' '}
         <a href="/client/test4" target="_blank">
           Open in a new tab
         </a>
@@ -108,14 +108,14 @@ const Index = () => (
         </p>
         <Link href="/client/test5">
           <a>Perform client side navigation</a>
-        </Link>{" "}
-        or{" "}
+        </Link>{' '}
+        or{' '}
         <a href="/client/test5" target="_blank">
           Open in a new tab
         </a>
       </li>
     </ul>
   </div>
-);
+)
 
-export default Index;
+export default Index
