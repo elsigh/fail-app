@@ -114,6 +114,32 @@ const Index = () => (
           Open in a new tab
         </a>
       </li>
+      <li>
+        <p>
+          An Error is thrown in the render lifecycle method. Sentry should record
+          Error('Client Test 6').
+        </p>
+        <Link href="/client/test6">
+          <a>Perform client side navigation</a>
+        </Link>{' '}
+        or{' '}
+        <a href="/client/test6" target="_blank">
+          Open in a new tab
+        </a>
+      </li>
+      <li>
+        <p>
+          An Error is thrown in the componentDidMount lifecycle method. Sentry should record
+          Error('Client Test 7').
+        </p>
+        <Link href="/client/test7">
+          <a>Perform client side navigation</a>
+        </Link>{' '}
+        or{' '}
+        <a href="/client/test7" target="_blank">
+          Open in a new tab
+        </a>
+      </li>
     </ul>
   </div>
 )
