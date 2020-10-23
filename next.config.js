@@ -1,5 +1,5 @@
 const withSourceMaps = require('@zeit/next-source-maps')()
-const withSentry = require('next-sentry-source-maps')()
+const withSentry = require('@next/sentry-source-maps')()
 
 module.exports = withSentry(
   withSourceMaps({
