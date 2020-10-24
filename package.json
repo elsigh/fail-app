@@ -8,9 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@zeit/next-source-maps": "0.0.4-canary.1",
     "@next/plugin-sentry": "kamilogorek/next-plugin-sentry",
-    "@next/sentry-source-maps": "kamilogorek/next-sentry-source-maps",
     "next": "canary",
     "react": "16.13.1",
     "react-dom": "16.13.1"
